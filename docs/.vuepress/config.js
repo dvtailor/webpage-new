@@ -2,7 +2,7 @@ module.exports = {
   title: "Harry Potter",
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
-  base: "/",
+  base: "/webpage-new/",
   dest: "./dist",
 
   themeConfig: {
