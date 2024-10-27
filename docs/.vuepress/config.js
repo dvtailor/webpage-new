@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Harry Potter",
+  title: "Dharmesh Tailor",
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/webpage-new/",
@@ -9,10 +9,9 @@ module.exports = {
     search: false,
     nav: [
       { text: "Home", link: "/" },
-      { text: "About", link: "/about/" },
-      { text: "Projects", link: "/projects/" },
-      { text: "Guide", link: "/guide/" },
-      { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
+      { text: "Papers", link: "/papers/" },
+      { text: "Past News", link: "/pastnews/" },
+      { text: "Academic Service", link: "/services/" }
     ],
     sidebar: {
       '/guide/': genSidebarConfig('Guide')
